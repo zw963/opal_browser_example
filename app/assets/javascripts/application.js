@@ -10,7 +10,10 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
+
+// Require the opal runtime and core library
+//= require opal
+
 //= require rails-ujs
 //= require turbolinks
 //= require_tree .
-//= require 'opal-browser'
